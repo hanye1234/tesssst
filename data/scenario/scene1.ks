@@ -4,7 +4,15 @@
 
 [cm  ]
 [edit  left="393"  top="215"  width="200"  height="40"  size="20"  maxchars="200"  name="f.pasword"  reflect="false"  ]
+<<<<<<< HEAD
 [button  storage="scene1.ks"  target="*input_the_pass"  graphic="noimage.png"  width="90"  height="62"  x="790"  y="195"  _clickable_img=""  name="img_3"  ]
+=======
+<<<<<<< HEAD
+[button  storage="scene1.ks"  target="*input_the_pass"  graphic="noimage.png"  width="90"  height="62"  x="790"  y="195"  _clickable_img=""  name="img_3"  ]
+=======
+[button  storage="scene1.ks"  target="*input_the_pass"  graphic="noimage.png"  width="90"  height="62"  x="790"  y="195"  _clickable_img=""  ]
+>>>>>>> 01e7c3a083e42614c2de3373054e5888387fe491
+>>>>>>> 90adfccf23897865fb0041aa73e511afde454944
 [s  ]
 *input_the_pass
 
@@ -35,7 +43,15 @@
 깨지는 건 아니겠지? [r] 걱정에 책을 덮고 자리에서 일어나려던 순간[l][r]
 [_tb_end_text]
 
+<<<<<<< HEAD
 [tb_image_show  time="1000"  storage="default/white.png"  width="1280"  height="800"  x=""  y=""  _clickable_img=""  name="img_16"  ]
+=======
+<<<<<<< HEAD
+[tb_image_show  time="1000"  storage="default/white.png"  width="1280"  height="800"  x=""  y=""  _clickable_img=""  name="img_16"  ]
+=======
+[tb_image_show  time="1000"  storage="default/white.png"  width="1280"  height="800"  x=""  y=""  _clickable_img=""  name="img_6"  ]
+>>>>>>> 01e7c3a083e42614c2de3373054e5888387fe491
+>>>>>>> 90adfccf23897865fb0041aa73e511afde454944
 [tb_image_hide  time="1000"  ]
 [bg  time="1000"  method="crossfade"  storage="black.png"  ]
 [tb_start_text mode=2 ]
@@ -160,25 +176,61 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="false"  ]
+<<<<<<< HEAD
 [tb_start_text mode=4 ]
 그 어깨 너머로 또, 아는 얼굴 몇몇이 둘러앉아있는 게 보인다.[l][r]
 제각기 날 알아차리고선, [l]
+=======
+<<<<<<< HEAD
+[tb_start_text mode=4 ]
+그 어깨 너머로 또, 아는 얼굴 몇몇이 둘러앉아있는 게 보인다.[l][r]
+제각기 날 알아차리고선, [l]
+=======
+[tb_start_text mode=2 ]
+그 어깨 너머로 또, 아는 얼굴 몇몇이 둘러앉아있는 게 보인다.[l][r]
+제각기 날 알아차리고선,[l][r]
+>>>>>>> 01e7c3a083e42614c2de3373054e5888387fe491
+>>>>>>> 90adfccf23897865fb0041aa73e511afde454944
 [_tb_end_text]
 
 [chara_show  name="mochi"  time="1000"  wait="false"  storage="chara/4/normal.png"  width="400"  height="600"  ]
 [tb_start_text mode=4 ]
+<<<<<<< HEAD
 손을 흔들거나, [l]
+=======
+<<<<<<< HEAD
+손을 흔들거나, [l]
+=======
+손을 흔들거나,[l]
+>>>>>>> 01e7c3a083e42614c2de3373054e5888387fe491
+>>>>>>> 90adfccf23897865fb0041aa73e511afde454944
 [_tb_end_text]
 
 [chara_hide  name="mochi"  time="1000"  wait="false"  pos_mode="false"  ]
 [chara_show  name="haru"  time="1000"  wait="false"  storage="chara/5/normal.png"  width="400"  height="600"  ]
 [tb_start_text mode=4 ]
+<<<<<<< HEAD
 고개를 꾸벅하거나, [l]
+=======
+<<<<<<< HEAD
+고개를 꾸벅하거나, [l]
+=======
+고개를 꾸벅하거나,[l]
+>>>>>>> 01e7c3a083e42614c2de3373054e5888387fe491
+>>>>>>> 90adfccf23897865fb0041aa73e511afde454944
 [_tb_end_text]
 
 [chara_hide  name="haru"  time="1000"  wait="true"  pos_mode="true"  ]
 [chara_show  name="fuwa"  time="1000"  wait="true"  storage="chara/6/normal.png"  width="400"  height="600"  ]
+<<<<<<< HEAD
 [chara_show  name="akina"  time="1000"  wait="true"  storage="chara/7/normal.png"  width="400"  height="600"  ]
+=======
+<<<<<<< HEAD
+[chara_show  name="akina"  time="1000"  wait="true"  storage="chara/7/normal.png"  width="400"  height="600"  ]
+=======
+[chara_show  name="akina"  time="1000"  wait="false"  storage="chara/7/normal.png"  width="400"  height="600"  ]
+>>>>>>> 01e7c3a083e42614c2de3373054e5888387fe491
+>>>>>>> 90adfccf23897865fb0041aa73e511afde454944
 [tb_start_text mode=4 ]
 문 쪽으로 다가온다.[l]
 [_tb_end_text]
@@ -187,11 +239,23 @@
 [chara_mod  name="akina"  time="600"  cross="true"  storage="chara/7/normal.png"  ]
 [tb_start_text mode=2 ]
 "마유~!"[l][r]
+<<<<<<< HEAD
 아키나가 밝게 웃으며 나를 반겼다.[l][r]
+=======
+<<<<<<< HEAD
+아키나가 밝게 웃으며 나를 반겼다.[l][r]
+=======
+아키나가 밝게 웃으며 쪼르르 나왔다.[l][r]
+>>>>>>> 01e7c3a083e42614c2de3373054e5888387fe491
+>>>>>>> 90adfccf23897865fb0041aa73e511afde454944
 [cm]"...다들 왜 모여있어?"[l][r]
 [_tb_end_text]
 
 [chara_mod  name="fuwa"  time="600"  cross="true"  storage="chara/6/normal.png"  ]
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 90adfccf23897865fb0041aa73e511afde454944
 [tb_start_text mode=4 ]
 "아~[l] 보충수업 받고 나니까 갑자기 비가 와서...[l]
 [_tb_end_text]
@@ -490,3 +554,12 @@
 [glink  color="black"  storage="scene1.ks"  size="20"  text="프롤로그는"  x="500"  y="300"  ]
 [glink  color="black"  storage="scene1.ks"  size="20"  text="끝"  x="500"  y="350"  ]
 [glink  color="black"  storage="scene1.ks"  size="20"  text="!!"  x="500"  y="400"  ]
+<<<<<<< HEAD
+=======
+=======
+[tb_start_text mode=2 ]
+"아~[l] 난 학교 옆 지나가던 중에 갑자기 내려서...[l] 달리 비 피할 데도 없으니까 일단 교실로 뛰어들어왔다고 할까..."[l][r]
+[_tb_end_text]
+
+>>>>>>> 01e7c3a083e42614c2de3373054e5888387fe491
+>>>>>>> 90adfccf23897865fb0041aa73e511afde454944
